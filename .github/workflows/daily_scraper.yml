@@ -30,7 +30,7 @@ jobs:
     
     - name: Run scraper
       run: |
-        python bizbuysell_scraper.py
+        python bizbuysell_scraper_improved.py
     
     - name: Upload results
       uses: actions/upload-artifact@v4
